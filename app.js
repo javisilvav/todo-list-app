@@ -25,9 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
             span.classList.toggle('completed');
         });
 
+        const deleteBtn = document.createElement('button');
+        deleteBtn.textContent = '🗑️';
+        deleteBtn.addEventListener('click', () => {
+            li.remove();
+        });
+
         li.appendChild(span);
         li.appendChild(completeBtn);
-
+        li.appendChild(deleteBtn);
         taskList.appendChild(li);
     }
 });
