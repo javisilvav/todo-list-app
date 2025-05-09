@@ -19,7 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const span = document.createElement('span');
         span.textContent = text;
 
+        const completeBtn = document.createElement('button');
+        completeBtn.textContent = '✔️';
+        completeBtn.addEventListener('click', () => {
+            span.classList.toggle('completed');
+        });
+
         li.appendChild(span);
+        li.appendChild(completeBtn);
 
         taskList.appendChild(li);
     }
