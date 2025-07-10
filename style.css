@@ -52,3 +52,13 @@ button {
     color: gray;
 }
 
+#filter {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#filter button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

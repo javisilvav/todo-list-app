@@ -57,4 +57,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
         tasks.forEach(task => addTask(task.text, task.completed));
     }
+
+    const filterButtons = document.querySelectorAll('#filter button');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const filter = button.getAttribute('data-filter');
+            applyFilter(filter);
+        });
+    });
+
+    function applyFilter(filter) {
+        const tasks = document.querySelectorAll('#task-list .task-item');
+        tasks.forEach(task => {
+            const isCompleted = task.querySelector('span').classList.contains('completed');
+            if (filter === 'all') {
+                task.style.display = 'flex';
+            } else if (filter === 'completed') {
+                task.style.display = isCompleted ? 'flex' : 'none';
+            } else if (filter === 'pending') {
+                task.style.display = !isCompleted ? 'flex' : 'none';
+            }
+        });
+    }
+
 });
