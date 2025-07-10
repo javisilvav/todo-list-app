@@ -2,6 +2,8 @@
 
 Una aplicación web simple de lista de tareas (To-Do List) desarrollada con HTML, CSS y JavaScript, enfocada en la práctica de flujos de trabajo con Git y GitHub.
 
+Para efectos de examen se trabajo en la funcionalidad encargada de guardar las tareas en localStorage y filtrar las tareas por estado.
+
 ---
 
 ## 🚀 Funcionalidades principales
