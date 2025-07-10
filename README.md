@@ -68,7 +68,7 @@ Se trabajó con el siguiente flujo:
 5. Rama `feature/ui-improvements`: desarollo de mejoras visuales al proyecto.
 6. Rama `feature/localstorage`: agrega persistencia de tareas.
 7. Rama `feature/filtro`: permite filtrar tareas según su estado.
-8. Se fusionaron ambas ramas en `main` mediante `git merge`.
+8. Se fusionaron ambas todas las ramas en `main` mediante `git merge` e interfaz de GitHub.
 
 ---
 
@@ -96,11 +96,11 @@ todo-list-app/
 - ✔️ Uso de ramas y merge
 ![Uso de Ramas](evidencias/ramas.png)
 - ✔️ Historial de commits
-![Historial de Commits](evidencias/historial-commits.png)
+![Historial de Commits](evidencias/commits.png)
 - ✔️ Visual Studio Code conectado a GitHub
 ![Visual Studio Code](evidencias/vscode.png)
 - ✔️ Pull/push en terminal
-![Pull/Push en Terminal](evidencias/pull-push.png)
+![Pull/Push en Terminal](evidencias/pull.png)
 
 ---
 
