@@ -92,14 +92,23 @@ todo-list-app/
 ## 📸 Evidencias del trabajo (capturas)
 
 - ✔️ Kanban board en GitHub Projects
+
 ![Kanban Board](evidencias/kanban.png)
+
 - ✔️ Uso de ramas y merge
+
 ![Uso de Ramas](evidencias/ramas.png)
+
 - ✔️ Historial de commits
+
 ![Historial de Commits](evidencias/commits.png)
+
 - ✔️ Visual Studio Code conectado a GitHub
+
 ![Visual Studio Code](evidencias/vscode.png)
+
 - ✔️ Pull/push en terminal
+
 ![Pull/Push en Terminal](evidencias/pull.png)
 
 ---
