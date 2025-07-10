@@ -70,7 +70,7 @@ Se trabajó con el siguiente flujo:
 5. Rama `feature/ui-improvements`: desarollo de mejoras visuales al proyecto.
 6. Rama `feature/localstorage`: agrega persistencia de tareas.
 7. Rama `feature/filtro`: permite filtrar tareas según su estado.
-8. Se fusionaron ambas todas las ramas en `main` mediante `git merge` e interfaz de GitHub.
+8. Se fusionaron todas las ramas en `main` mediante `git merge` e interfaz de GitHub.
 
 ---
 
