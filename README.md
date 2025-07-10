@@ -62,9 +62,13 @@ Una aplicación web simple de lista de tareas (To-Do List) desarrollada con HTML
 Se trabajó con el siguiente flujo:
 
 1. Rama `main`: rama principal del proyecto.
-2. Rama `feature/localstorage`: agrega persistencia de tareas.
-3. Rama `feature/filtro`: permite filtrar tareas según su estado.
-4. Se fusionaron ambas ramas en `main` mediante `git merge`.
+2. Rama `feature/add-task`: desarrollo de la funcionalidad de agregar tareas.
+3. Rama `feature/delete-task`: implementación de eliminación de tareas.
+4. Rama `feature/mark-completed`: implementación de funcionalidad para marcar una tarea como completada.
+5. Rama `feature/ui-improvements`: desarollo de mejoras visuales al proyecto.
+6. Rama `feature/localstorage`: agrega persistencia de tareas.
+7. Rama `feature/filtro`: permite filtrar tareas según su estado.
+8. Se fusionaron ambas ramas en `main` mediante `git merge`.
 
 ---
 
@@ -85,13 +89,18 @@ todo-list-app/
 
 ---
 
-## 📸 Evidencias del trabajo (sube tus capturas aquí)
+## 📸 Evidencias del trabajo (capturas)
 
 - ✔️ Kanban board en GitHub Projects
+![Kanban Board](evidencias/kanban.png)
 - ✔️ Uso de ramas y merge
+![Uso de Ramas](evidencias/ramas.png)
 - ✔️ Historial de commits
+![Historial de Commits](evidencias/historial-commits.png)
 - ✔️ Visual Studio Code conectado a GitHub
+![Visual Studio Code](evidencias/vscode.png)
 - ✔️ Pull/push en terminal
+![Pull/Push en Terminal](evidencias/pull-push.png)
 
 ---
 
